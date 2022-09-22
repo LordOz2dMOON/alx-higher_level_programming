@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-#create function with Prototype: def print_last_digit(number):
 def print_last_digit(number):
-#return value of last digit
-    return number % 10
+    exe = 0
+    if number < 0:
+        number *= -1
+    exe = 1
+    last = number % 10
+    if exe == 1:
+        number *= -1
+    print("{:d}".format(last), end="")
+    return last
