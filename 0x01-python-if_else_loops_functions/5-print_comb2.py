@@ -3,4 +3,4 @@ for i in range(0, 100):
     if i == 99:
         print("{:d}".format(99))
         break
-    print('{0:02d}'.format(i),end=", ")
+    print('{0:02d}'.format(i), end=", ")
