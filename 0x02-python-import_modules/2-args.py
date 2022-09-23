@@ -10,7 +10,7 @@ if __name__ == "__main__":
         print('{} argument:'.format(argv_count))
         print('{}: {}'.format(number, sys.argv[1]))
     else:
-        print('{} arguments'.format(argv_count))
+        print('{} arguments:'.format(argv_count))
         while number <= argv_count:
             print('{}: {}'.format(number, sys.argv[number]))
             number += 1
