@@ -5,12 +5,12 @@ if __name__ == "__main__":
     argv_count = len(argv)
     number = 1
     if argv_count is 0:
-        print('{} arguments.'.format(argv_count))
+        print('{:d} arguments.'.format(argv_count))
     elif argv_count is 1:
-        print('{} argument:'.format(argv_count))
-        print('{}: {}'.format(number, sys.argv[1]))
+        print('{:d} argument:'.format(argv_count))
+        print('{:d}: {:s}'.format(number, sys.argv[1]))
     else:
-        print('{} arguments:'.format(argv_count))
+        print('{:d} arguments:'.format(argv_count))
         while number <= argv_count:
-            print('{}: {}'.format(number, sys.argv[number]))
+            print('{:d}: {:s}'.format(number, sys.argv[number]))
             number += 1
