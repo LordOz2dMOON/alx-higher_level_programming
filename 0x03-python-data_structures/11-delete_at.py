@@ -19,8 +19,4 @@ if __name__ == '__main__':
     tmp = delete_at(lst, 3)
     print(lst)
     print(tmp)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
+    
