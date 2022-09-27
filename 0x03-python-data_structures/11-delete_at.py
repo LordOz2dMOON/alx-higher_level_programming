@@ -19,4 +19,3 @@ if __name__ == '__main__':
     tmp = delete_at(lst, 3)
     print(lst)
     print(tmp)
-    
