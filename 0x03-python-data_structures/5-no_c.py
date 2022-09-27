@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-def no_c(my_string):
-    for letter in my_string:
-        if letter == 'c' or letter == 'C':
-             mydict = {99:  '', 67: ''}
-             return my_string.translate(mydict)
+
+def no_c(my_str):
+    """
+    Returns a copy of my_str without c or C
+    Args:
+        my_str - the string to filter
+    """
+    return "".join(filter(lambda x: x not in 'cC', my_str))
