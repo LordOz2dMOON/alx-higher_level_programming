@@ -1,0 +1,2 @@
+2 = "Best School"
+>>> print(s1 is s2)
