@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 0-rectangle.py
-"""Defines a Rectangle class."""
+"""Defines an empty Rectangle class."""
 
 
 class Rectangle:
